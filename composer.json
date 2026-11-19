@@ -1,32 +1,33 @@
 {
-    "name": "poppy/ext-ip_store",
-    "description": "Ip convert to area name",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Mark Zhao",
-            "email": "zhaody901@126.com"
-        }
-    ],
-    "require": {
-        "php": ">=7.4"
-    },
-    "autoload": {
-        "psr-4": {
-            "Poppy\\Extension\\IpStore\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Poppy\\Extension\\IpStore\\Tests\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Poppy\\Extension\\IpStore\\ExtensionServiceProvider"
-            ]
-        }
-    },
-    "minimum-stability": "dev"
+  "name": "poppy/ext-ip_store",
+  "description": "Ip convert to area name",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mark Zhao",
+      "email": "zhaody901@126.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Poppy\\Extension\\IpStore\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Poppy\\Extension\\IpStore\\Tests\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Poppy\\Extension\\IpStore\\ExtensionServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "version": "4.3.0"
 }
